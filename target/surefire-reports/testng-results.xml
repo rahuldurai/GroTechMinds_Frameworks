@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-26T11:18:23 IST" name="Group" finished-at="2024-05-26T11:18:23 IST" duration-ms="148">
+    <groups>
+      <group name="Sanity">
+        <method signature="GroupDemo.test3()[pri:0, instance:day2_19052024.GroupDemo@5e82df6a]" name="test3" class="day2_19052024.GroupDemo"/>
+        <method signature="GroupDemo.test7()[pri:0, instance:day2_19052024.GroupDemo@5e82df6a]" name="test7" class="day2_19052024.GroupDemo"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="GroupDemo.test7()[pri:0, instance:day2_19052024.GroupDemo@5e82df6a]" name="test7" class="day2_19052024.GroupDemo"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="GroupDemo.test3()[pri:0, instance:day2_19052024.GroupDemo@5e82df6a]" name="test3" class="day2_19052024.GroupDemo"/>
+        <method signature="GroupDemo.test6()[pri:0, instance:day2_19052024.GroupDemo@5e82df6a]" name="test6" class="day2_19052024.GroupDemo"/>
+        <method signature="GroupDemo.test7()[pri:0, instance:day2_19052024.GroupDemo@5e82df6a]" name="test7" class="day2_19052024.GroupDemo"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-05-26T11:18:23 IST" name="GroupsTest" finished-at="2024-05-26T11:18:23 IST" duration-ms="148">
+      <class name="day2_19052024.GroupDemo">
+        <test-method signature="test3()[pri:0, instance:day2_19052024.GroupDemo@5e82df6a]" started-at="2024-05-26T11:18:23 IST" name="test3" finished-at="2024-05-26T11:18:23 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test6()[pri:0, instance:day2_19052024.GroupDemo@5e82df6a]" started-at="2024-05-26T11:18:23 IST" name="test6" finished-at="2024-05-26T11:18:23 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test7()[pri:0, instance:day2_19052024.GroupDemo@5e82df6a]" started-at="2024-05-26T11:18:23 IST" name="test7" finished-at="2024-05-26T11:18:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+      </class> <!-- day2_19052024.GroupDemo -->
+    </test> <!-- GroupsTest -->
+  </suite> <!-- Group -->
+</testng-results>
